@@ -1,0 +1,16 @@
+# Verify out-of-the-box app placement requirements are met, according to Help Center Placement Requirements. For Android 8.0+ devices be sure to check the Apps view as well as the Home Screen Favorites row.
+
+
+I have broken this down into 2 tests:
+
+    - Check home app placement
+    - Check Apps area placement
+
+The test uses an array for the expected applications as follows:
+
+    "Netflix", "YouTube", "Prime Video", "Disney+"
+
+-Our device is running Android TV Os v12
+-Some of the requested checks (such as for games) were not showing in our version of the OS
+-This can be extended or modified easily by rearranging or adding to the array 
+-

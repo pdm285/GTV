@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "appium-ocr-plugin": "^0.1.3"
+  }
+}
